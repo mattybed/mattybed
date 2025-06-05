@@ -10,6 +10,22 @@
     <header>
         <h1>eBay Store Products</h1>
     </header>
+
+    <div class="controls-container">
+      <label for="sort-by">Sort by:</label>
+      <select id="sort-by">
+        <option value="">Default (Best Match)</option>
+        <option value="price_asc">Price: Low to High</option>
+        <option value="price_desc">Price: High to Low</option>
+        <option value="title">Title (A-Z)</option>
+      </select>
+
+      <input type="number" id="min-price" placeholder="Min Price">
+      <input type="number" id="max-price" placeholder="Max Price">
+      <input type="text" id="keywords" placeholder="Search by keyword">
+      <button id="apply-filters">Apply Filters</button>
+    </div>
+
     <main id="products" class="grid"></main>
 
     <template id="product-template">
