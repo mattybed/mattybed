@@ -1,0 +1,17 @@
+{
+  "name": "mattybed",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @mattybed - 👀 I’m interested in ... - 🌱 I’m currently learning ... - 💞️ I’m looking to collaborate on ... - 📫 How to reach me ... - 😄 Pronouns: ... - ⚡ Fun fact: ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
