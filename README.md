@@ -1,33 +1,27 @@
 # eBay Store Integration Example
 
-This repository contains a simple Node.js website that fetches products from an eBay UK store using the eBay Finding API.
+This project is a minimal Next.js 14 site that fetches products from an eBay UK store.
 
 ## Setup
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Set the following environment variables:
-   - `EBAY_APP_ID` – your eBay App ID.
-   - `EBAY_STORE` – the name of the eBay store to import products from.
+1. Install dependencies
 
-3. Start the server:
-   ```bash
-   node server.js
-   ```
+```bash
+pnpm install
+```
 
-The site will be available at `http://localhost:3000` and display products from the configured store.
+2. Create a `.env.local` file with the following variables:
 
-- 👋 Hi, I’m @mattybed
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+```
+EBAY_APP_ID=your-app-id
+EBAY_STORE=your-store-name
+CACHE_TTL=900
+```
 
-<!---
-mattybed/mattybed is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+3. Run the development server
+
+```bash
+pnpm run dev
+```
+
+The site will be available at `http://localhost:3000`.
